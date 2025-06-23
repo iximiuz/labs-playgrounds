@@ -75,14 +75,14 @@ build-rootfs-%: examiner examinerctl
 		--build-arg K0S_KUBECTL_VERSION=1.33.1 \
 		--build-arg K3S_VERSION=1.33.1+k3s1 \
 		--build-arg K3S_KUBECTL_VERSION=1.33.1 \
-		--build-arg K8S_OMNI_VERSION=1.33.1 \
+		--build-arg K8S_OMNI_VERSION=1.33.2 \
 		--build-arg K8S_OMNI_CNI_PLUGINS_VERSION=1.7.1 \
-		--build-arg K8S_OMNI_CONTAINERD_VERSION=2.1.2 \
+		--build-arg K8S_OMNI_CONTAINERD_VERSION=2.1.3 \
 		--build-arg K8S_OMNI_CRI_O_VERSION=1.32.1 \
 		--build-arg K8S_OMNI_CRICTL_VERSION=1.33.0 \
 		--build-arg K8S_OMNI_RUNC_VERSION=1.3.0 \
 		--build-arg K9S_VERSION=0.50.6 \
-		--build-arg KAMAL_VERSION=2.6.1 \
+		--build-arg KAMAL_VERSION=2.7.0 \
 		--build-arg NERDCTL_VERSION=2.1.2 \
 		--build-arg NERDCTL_CNI_VERSION=1.7.1 \
 		--build-arg NVM_VERSION=0.40.3 \
