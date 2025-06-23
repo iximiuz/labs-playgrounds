@@ -43,6 +43,7 @@ pacman -Sy --noconfirm --needed \
   systemd \
   systemd-libs \
   traceroute \
+  tree \
   vim \
   wget \
   which

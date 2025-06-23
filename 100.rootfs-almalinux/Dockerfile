@@ -49,6 +49,7 @@ dnf -y install --setopt=install_weak_deps=False --setopt=tsflags=nodocs \
   sudo \
   systemd \
   traceroute \
+  tree \
   udev \
   unzip \
   vim \

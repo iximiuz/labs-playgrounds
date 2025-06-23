@@ -51,6 +51,7 @@ dnf -y install \
   sudo \
   systemd \
   traceroute \
+  tree \
   udev \
   unzip \
   vim \

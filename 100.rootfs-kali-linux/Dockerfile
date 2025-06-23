@@ -54,6 +54,7 @@ apt-get install -y \
   sudo \
   systemd \
   traceroute \
+  tree \
   udev \
   unzip \
   vim
