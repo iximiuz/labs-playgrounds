@@ -64,6 +64,7 @@ build-rootfs-%: examiner examinerctl
 		--build-arg ALMALINUX_VERSION=9 \
 		--build-arg ALPINE_VERSION=3 \
 		--build-arg BTOP_VERSION=1.4.3 \
+		--build-arg CFSSL_VERSION=1.6.5 \
 		--build-arg DAGGER_VERSION=0.18.10 \
 		--build-arg DEBIAN_STABLE_VERSION=bookworm \
 		--build-arg DEBIAN_TESTING_VERSION=trixie \

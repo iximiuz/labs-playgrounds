@@ -3,6 +3,7 @@ FROM ubuntu:22.04
 
 ARG ARKADE_BIN_DIR
 ARG BTOP_VERSION
+ARG CFSSL_VERSION
 ARG LAB_USER
 ARG WEBSOCAT_VERSION
 
@@ -106,6 +107,7 @@ RUN --mount=type=bind,source=scripts,target=/tmp/scripts /tmp/scripts/set-up-sys
 RUN --mount=type=bind,source=scripts,target=/tmp/scripts /tmp/scripts/get-arkade.sh
 RUN --mount=type=bind,source=scripts,target=/tmp/scripts /tmp/scripts/get-common-tools.sh
 RUN --mount=type=bind,source=scripts,target=/tmp/scripts /tmp/scripts/get-btop.sh
+RUN --mount=type=bind,source=scripts,target=/tmp/scripts /tmp/scripts/get-cfssl.sh
 RUN --mount=type=bind,source=scripts,target=/tmp/scripts /tmp/scripts/get-websocat.sh
 RUN curl https://fx.wtf/install.sh | sh
 
