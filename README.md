@@ -40,29 +40,30 @@ make base-3xx  # Development environments
 
 ### Base Operating Systems (100-series)
 
-| Image | Description |
-|-------|-------------|
-| `almalinux` | AlmaLinux-based environment |
-| `alpine` | Lightweight Alpine Linux |
-| `archlinux` | Arch Linux with typical sysadmin tools |
-| `debian-stable` | Debian stable release with typical sysadmin tools |
-| `debian-testing` | Debian testing release with typical sysadmin tools |
-| `fedora` | Latest Fedora release with typical sysadmin tools |
-| `kali-linux` | Kali Linux for security testing with typical sysadmin tools |
-| `rockylinux` | Rocky Linux enterprise environment with typical sysadmin tools |
-| `ubuntu-22-04` | Ubuntu 22.04 LTS with typical sysadmin tools |
-| `ubuntu-24-04` | Ubuntu 24.04 LTS with typical sysadmin tools |
+| Image                 | Description                                                    |
+| --------------------- | -------------------------------------------------------------- |
+| `almalinux`           | AlmaLinux-based environment                                    |
+| `alpine`              | Lightweight Alpine Linux                                       |
+| `archlinux`           | Arch Linux with typical sysadmin tools                         |
+| `debian-stable`       | Debian stable release with typical sysadmin tools              |
+| `debian-testing`      | Debian testing release with typical sysadmin tools             |
+| `fedora`              | Latest Fedora release with typical sysadmin tools              |
+| `kali-linux`          | Kali Linux for security testing with typical sysadmin tools    |
+| `opensuse-tumbleweed` | Latest openSUSE tumbleweed with typical sysadmin tools         |
+| `rockylinux`          | Rocky Linux enterprise environment with typical sysadmin tools |
+| `ubuntu-22-04`        | Ubuntu 22.04 LTS with typical sysadmin tools                   |
+| `ubuntu-24-04`        | Ubuntu 24.04 LTS with typical sysadmin tools                   |
 
 ### Container Runtimes (200-series)
 
-| Image | Description |
-|-------|-------------|
-| `incus` | Incus container/VM manager |
-| `nerdctl` | containerd-native Docker-compatible CLI |
-| `podman` | Podman rootless containers |
-| `ubuntu-docker` | Ubuntu with Docker engine |
-| `ubuntu-k0s` | k0s Kubernetes distribution |
-| `ubuntu-k3s-bare` | k3s minimal setup |
+| Image             | Description                             |
+| ----------------- | --------------------------------------- |
+| `incus`           | Incus container/VM manager              |
+| `nerdctl`         | containerd-native Docker-compatible CLI |
+| `podman`          | Podman rootless containers              |
+| `ubuntu-docker`   | Ubuntu with Docker engine               |
+| `ubuntu-k0s`      | k0s Kubernetes distribution             |
+| `ubuntu-k3s-bare` | k3s minimal setup                       |
 
 ### Miscellaneous images (300-series and 400-series)
 

@@ -7,7 +7,7 @@ PASSWORD="${LAB_USER}"
 
 if [ -f /etc/almalinux-release ] || [ -f /etc/fedora-release ] || [ -f /etc/rocky-release ]; then
     adduser --comment "" --uid "$USER_ID" "$USERNAME"
-elif [ -f /etc/arch-release ]; then
+elif [ -f /etc/arch-release ] || [ -f /etc/products.d/openSUSE.prod ]; then
     useradd -m -c "" -u "$USER_ID" "$USERNAME"
 else
     adduser --disabled-password --gecos "" --uid "$USER_ID" "$USERNAME"
@@ -25,6 +25,8 @@ elif [ -f /etc/arch-release ]; then
 elif [ -f /etc/fedora-release ]; then
     SUDO_GROUP="wheel"
 elif [ -f /etc/rocky-release ]; then
+    SUDO_GROUP="wheel"
+elif [ -f /etc/products.d/openSUSE.prod ]; then
     SUDO_GROUP="wheel"
 fi
 
