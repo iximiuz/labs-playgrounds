@@ -11,9 +11,12 @@ USER root
 RUN <<EOF
 set -eu
 
+setcap cap_setuid+ep /usr/bin/newuidmap
+setcap cap_setgid+ep /usr/bin/newgidmap
+
 # TODO: install buildah - for some reason it started making the VM hang since 5.10.199
 dnf install -y \
-  podman
+  podman podman-compose fuse-overlayfs
 EOF
 
 RUN podman completion bash > /etc/bash_completion.d/podman
