@@ -1,3 +1,5 @@
+**The repository moved to [github.com/iximiuz/labs](https://github.com/iximiuz/labs).**
+
 # iximiuz Labs' Playground Build Tools and Bake Recipes
 
 A curated collection of Dockerfile-based root filesystem images designed for hands-on learning, experimentation, and development across various technologies and platforms.
